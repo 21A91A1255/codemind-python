@@ -1,0 +1,10 @@
+n=input()
+s=[]
+r=len(n)
+if(r==10):
+    if(n[0]==0):
+        print("Invalid")
+    else:
+        print("Valid")
+else:
+    print("Invalid")
