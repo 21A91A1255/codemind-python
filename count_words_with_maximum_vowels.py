@@ -9,5 +9,5 @@ for i in n.split():
         if j in a:
             c+=1
     l.append(c)
-x=max(l)
+x=min(l)
 print(l.count(x))
