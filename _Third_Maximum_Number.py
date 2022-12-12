@@ -1,0 +1,12 @@
+n=int(input())
+l=list(map(int,input().split()))
+l=set(l)
+if(len(l)>=3):
+    p=max(l)
+    l.remove(p)
+    t=max(l)
+    l.remove(t)
+    e=max(l)
+    print(e)
+else:
+    print(max(l))
